@@ -1,0 +1,100 @@
+body{
+   
+}
+.text-center{
+    text-align: center;
+}
+.one{
+ background-color:#ff9999 ;
+  background-repeat: no-repeat;
+    font-family: 'Jomolhari', serif;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    background-size:100% 650px;
+}
+img{
+    max-width: 100%;
+}
+.head-pic{
+    padding-top:80px
+}
+.head{  
+    margin-bottom: 140px;
+    margin-top: 20px;
+}
+.name-font{
+    font-family: 'Dancing Script', cursive;
+    font-size: 120px;
+   text-align: center;
+   padding-top:20px;
+}
+.name-about{
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+   text-align: center;
+   padding-top:100px;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+   text-align: center;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer{
+    background-color:#ff9999 ;
+    color: #ffffff;
+    font-size: 20px;
+    padding-top:100px;
+}
+.footer-text{
+    padding-left:350px;
+}
+.sub-head{
+    font-size: 20px;
+    text-align: center;
+}
+.icon{
+    max-width: 10%;
+}
+.social{
+ padding-top: 30px;
+  list-style-type: none;
+  font-size: 20px;
+    display: inline-block;
+}
+.sub-col{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+.content{
+    padding-top:30px;
+}
+.other{
+    padding-top: 50px;
+}
+.art-sec{
+    padding-top:90px;
+}
+
+.art-content{
+    text-align:left;
+    margin: 0 20px;
+    
+}
+  
+@media (max-width: 568px) and (min-width: 320px) {
+  section{width:100%; text-align: center; }
+  .profile-pic{width:100%;}
+
+  }
+  @media (max-width: 1399px) and (min-width: 569px) {
+    section {width:100%; text-align: center;
+    
+    }
+

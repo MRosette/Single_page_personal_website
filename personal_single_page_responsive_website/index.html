@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link href="https://fonts.googleapis.com/css?family=Jomolhari|Julius+Sans+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+    </head>
+    <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                 <a class="navbar-brand" href="#">Mitzi Rosette</a>
+                    <button class="navbar-toggler justify-content-end " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                         </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+             <li class="nav-item">
+                 <a class="nav-link" href="#Home" >Home</a>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#About" >About
+                         </a>
+                     </li>
+                            <li class="nav-item">
+                        <a class="nav-link" href="#Artwork" >Artwork</a>
+                    </a>
+                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Contact" >Contact</a>
+                      
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+                    <section id="Home" class="jumbotron text-center one ">
+                        <img  class="head-pic" src="dummy-f.png">
+                            <p class="name-font" >Hi! I'm Mitzi.</p>
+                            <p class="head" >“A pessimist is one who makes difficulties of his opportunities<br> 
+                                              and an optimist is one who makes opportunities of his difficulties.” <br>- Harry S. Truman</p>
+                           
+                    </section>
+
+                    <section id="About">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <img class="profile-pic"src="roses.jpg" max-width="100%" height="90%">
+                                    </div>
+                                    <div class="col-6 content">
+                                                <p class="name-about content">Mitzi Rosette Gamboa</p>
+                                                <p class="sub-head">-Graphic Artist</p>
+                                                <br>
+                                                <br>
+
+                                                <p class="sub-col content">Working Experience</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                                 Excepteur sint occaecat cupidatat non proident,
+                                                sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                                                <p class="sub-col content">Hobbies</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                                               </p>
+                                        </div>
+                                      
+    
+                                </div>
+                            </div>
+    
+                        </section>
+
+                        <section id="Artwork" class="art-sec">
+                            <h1>Artwork</h1>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-4">
+                                            <img src="dummyart.jpg" max-width="100%">
+                                            <p class="art-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                    nisi ut aliquip ex ea commodo consequat.</p>
+                                    </div>
+                                    <div class="col-4">
+                                            <img src="dummyart.jpg" max-width="100%">
+                                            <p class="art-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                    nisi ut aliquip ex ea commodo consequat.</p>
+                                        </div>
+                                        <div class="col-4">
+                                                <img src="dummyart.jpg" max-width="100%">
+                                                <p class="art-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                        nisi ut aliquip ex ea commodo consequat.</p>
+                                            </div>
+                                
+                                </div>
+                            </div>
+                        </section >
+
+                        <br><br><br><br>
+                      
+                        <section class="footer" id="Contact">
+                                <h2>Connect with me.</h2>
+
+                            <div class="container">
+                                    <form>
+                                            <div class="form-group">
+                                                <label for="user">Name:</label>
+                                                <input type="text" class="form-control" id="user">
+                                            </div>
+                                            <div class="form-group">
+                                                    <label for="email">Email:</label>
+                                                    <input type="text" class="form-control" id="email">
+                                                </div>
+                                                <div class="form-group">
+                                                        <label for="comment">Comment:</label>
+                                                        <textarea class="form-control" rows="6" id="comment"></textarea>
+                                                    </div>
+                                                      
+                                            </form>
+                                  
+                                <div class="row">
+                                    <div class="col-6">
+                                        <p class="other">
+                                            Lorem ipsum dolor sit amet, <br>
+                                            consectetur adipiscing elit, <br>
+                                            sed do eiusmod tempo<br>
+                                            12345678900
+                                        </p>
+                                    </div>
+                                    <div class="col-6  ">
+                                        <ul class="social">
+                                            <li><img class="icon"src="f.png">Mitzi@Rosette.com</li>
+                                            <li><img class="icon"src="i.png">Mitzi@Rosette.com</li>
+                                            <li><img class="icon"src="p.png">Mitzi@Rosette.com</li>
+                                      
+                                        </ul>
+                                        </div>
+                                </div>
+                            </div>
+                        </section>
+
+    </body>
+</html>
